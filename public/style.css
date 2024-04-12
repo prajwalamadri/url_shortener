@@ -1,0 +1,44 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,400&display=swap');*/
+
+body {
+  display: grid;
+  place-items: center;
+  font-family: 'Helvetica', sans-serif;
+  /*background-color: #ffffff;*/
+  color: #000000;
+  background-image: url('/assets/gifs_bg.gif');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.short-url {
+  margin: 20px;
+}
+
+.short-url a {
+  color: #000000;
+  text-decoration: none;
+}
+
+input[type='url'] {
+  display: block;
+  width: 45vw;
+  height:25px;
+}
+
+input[type='submit'] {
+  /* width: 100px; */
+  display: block;
+  margin: 30px auto;
+  background-color: #000000;
+  color: white;
+  border: 1px;
+  border-radius: 5px;
+  padding: 8px 12px;
+  font-family: 'Helvetica', sans-serif;
+}
+
+p.error {
+  color: #eb3326;
+}
